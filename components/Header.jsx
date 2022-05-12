@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import Link from 'next/link'
 import Image from 'next/image'
+import brandLogo from '../assets/fodrixiconnew.png'
 
 import { getCategories } from '../services'
 
@@ -18,7 +19,7 @@ const Header = () => {
           <Link href="https://fodrix.com/">
             <Image
               className="cursor-pointer"
-              src="/../public/static/img/fodrixiconnew.png"
+              src={brandLogo}
               alt="fodrix logo"
               width={160}
               height={80}
