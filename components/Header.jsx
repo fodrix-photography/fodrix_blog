@@ -15,9 +15,10 @@ const Header = () => {
     <div className="l container mx-auto mb-8 px-10">
       <div className="g:sticky container relative flex w-full flex-col items-center justify-center border-b border-blue-400 pt-8 pb-2">
         <div className="mx-auto block">
-          <Link href="/">
+          <Link href="https://fodrix.com/">
             <Image
-              src="/../public/fodrixiconnew.png"
+              className="cursor-pointer"
+              src="/../public/static/img/fodrixiconnew.png"
               alt="fodrix logo"
               width={160}
               height={80}
